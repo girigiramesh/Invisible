@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_green"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.apple.invision.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_check_circle_black_24dp1"
+        android:padding="72dp" />
+
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:hint="username"
+        android:paddingBottom="24dp" />
+
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="24dp" />
+
+    <TextView
+        android:id="@+id/fgt_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="32dp"
+        android:paddingTop="16dp"
+        android:text="Forgot PassWord" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_sign_in"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/category_white"
+        android:textSize="32sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="button2"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
