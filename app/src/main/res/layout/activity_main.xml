@@ -17,7 +17,7 @@
         android:padding="72dp" />
 
 
-    <EditText
+    <EditTextgit
         android:id="@+id/edit_text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
