@@ -17,7 +17,7 @@
         android:padding="72dp" />
 
 
-    <EditTextgit
+    <EditText
         android:id="@+id/edit_text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,12 +35,13 @@
         android:inputType="textPassword"
         android:paddingBottom="24dp" />
 
-    <TextView
+    <Button
         android:id="@+id/fgt_pwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:paddingBottom="32dp"
+        android:textAllCaps="false"
         android:paddingTop="16dp"
         android:text="Forgot PassWord" />
 

@@ -14,16 +14,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button b1 = (Button) findViewById(R.id.btn1);
-        b1.setOnClickListener(new View.OnClickListener(){
+        Button forgot_password = (Button) findViewById(R.id.fgt_pwd);
+        forgot_password.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Toast.makeText(MainActivity.this,"Forgot Password",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Button sign_in = (Button) findViewById(R.id.btn1);
+        sign_in.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Toast.makeText(MainActivity.this,"Sign In",Toast.LENGTH_SHORT).show();
             }
         });
 
-       Button b2 = (Button) findViewById(R.id.btn2);
-        b2.setOnClickListener(new View.OnClickListener(){
+       Button sign_up = (Button) findViewById(R.id.btn2);
+        sign_up.setOnClickListener(new View.OnClickListener(){
             @Override
         public void onClick(View v){
                 Toast.makeText(MainActivity.this,"Sign Up",Toast.LENGTH_SHORT).show();
